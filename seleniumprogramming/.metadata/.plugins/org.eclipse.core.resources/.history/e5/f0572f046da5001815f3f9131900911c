@@ -1,0 +1,24 @@
+package pack1;
+
+public class Singleton {
+private static Singleton singletoninstance=null;
+private static String str="";
+public Singleton()
+{
+	
+}
+public void print(){
+	str="Linkan";
+}
+
+public static Singleton getInstance()
+{
+	if(singletoninstance==null)
+	{
+		singletoninstance=new Singleton();
+		
+	}
+	return singletoninstance;
+}
+
+}

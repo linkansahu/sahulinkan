@@ -1,0 +1,40 @@
+2016-11-30 18:17:51,774 [main] INFO FrameDemo  - Browser Opened
+2016-11-30 18:17:53,548 [main] INFO FrameDemo  - Implicit wait given
+2016-11-30 18:18:33,385 [main] INFO FrameDemo  - Url opened
+2016-11-30 18:18:43,849 [main] INFO FrameDemo  - click on sign in
+2016-11-30 18:18:51,467 [main] INFO FrameDemo  - Browser Opened
+2016-11-30 18:18:51,783 [main] INFO FrameDemo  - Implicit wait given
+2016-11-30 18:18:59,141 [main] INFO FrameDemo  - give un
+2016-11-30 18:19:04,171 [main] INFO FrameDemo  - Url opened
+2016-11-30 18:19:10,943 [main] INFO FrameDemo  - click on sign in
+2016-11-30 18:23:20,312 [main] INFO FrameDemo  - Browser Opened
+2016-11-30 18:23:20,462 [main] INFO FrameDemo  - Implicit wait given
+2016-11-30 18:23:28,937 [main] INFO FrameDemo  - Url opened
+2016-11-30 18:23:36,497 [main] INFO FrameDemo  - click on sign in
+2016-11-30 18:23:50,861 [main] INFO FrameDemo  - give un
+2016-11-30 18:36:38,775 [main] INFO FrameDemo  - Browser Opened
+2016-11-30 18:36:39,285 [main] INFO FrameDemo  - Implicit wait given
+2016-11-30 18:36:48,748 [main] INFO FrameDemo  - Url opened
+2016-11-30 18:36:55,147 [main] INFO FrameDemo  - click on sign in
+2016-11-30 18:37:10,804 [main] INFO FrameDemo  - give un
+2016-11-30 18:40:05,026 [main] INFO FrameDemo - Browser Opened
+2016-11-30 18:40:05,475 [main] INFO FrameDemo - Implicit wait given
+2016-11-30 18:40:16,710 [main] INFO FrameDemo - Url opened
+2016-11-30 18:40:23,260 [main] INFO FrameDemo - click on sign in
+2016-11-30 18:40:33,944 [main] INFO FrameDemo - give un
+2016-11-30 18:45:08,198 [main] INFO FrameDemo - Browser Opened
+2016-11-30 18:45:08,610 [main] INFO FrameDemo - Implicit wait given
+2016-11-30 18:45:19,324 [main] INFO FrameDemo - Url opened
+2016-11-30 18:45:25,276 [main] INFO FrameDemo - click on sign in
+2016-11-30 18:45:39,945 [main] INFO FrameDemo - give un
+2016-11-30 18:47:40,118 [main] INFO FrameDemo - Browser Opened
+2016-11-30 18:47:40,815 [main] INFO FrameDemo - Implicit wait given
+2016-11-30 18:47:48,992 [main] INFO FrameDemo - Url opened
+2016-11-30 18:47:55,609 [main] INFO FrameDemo - click on sign in
+2016-11-30 18:48:07,453 [main] INFO FrameDemo - give un
+2016-11-30 19:58:32,565 [main] INFO FrameDemo - Implicit wait given
+2016-11-30 19:58:40,850 [main] INFO FrameDemo - Url opened
+2016-11-30 19:58:47,718 [main] INFO FrameDemo - click on sign in
+2016-11-30 19:58:59,201 [main] INFO FrameDemo - give un
+2016-12-01 16:45:24,084 [Forwarding getElementText on session acd1a436-5753-4b97-b6cf-3e289f990b7a to remote] INFO org.apache.http.impl.execchain.RetryExec - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {}->http://127.0.0.1:7055: The target server failed to respond
+2016-12-01 16:45:24,178 [Forwarding getElementText on session acd1a436-5753-4b97-b6cf-3e289f990b7a to remote] INFO org.apache.http.impl.execchain.RetryExec - Retrying request to {}->http://127.0.0.1:7055

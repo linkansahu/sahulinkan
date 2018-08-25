@@ -1,0 +1,27 @@
+package pac.exa;
+
+import java.io.IOException;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.Test;
+
+public class NewTest {
+  @Test
+  public void f() throws Throwable {
+	//  WebDriver driver=new FirefoxDriver();
+	  //driver.manage().window().maximize();
+Runtime.getRuntime().exec("C:\\Users\\linkan\\Downloads\\Application (.exe)");
+	 /* driver.get("https://www.irctc.co.in/eticketing/loginHome.jsf");
+	  String capchavalue = driver.findElement(By.xpath("")).getText();
+	  int firstinteger= Integer.parseInt(capchavalue.substring(0, 2));
+	  int secondinteger= Integer.parseInt(capchavalue.substring(5, 6));
+	  int calc= firstinteger+secondinteger;
+	  String final_value= String.valueOf(calc);
+	  driver.findElement(By.xpath("")).sendKeys(final_value);*/
+
+
+  }
+}

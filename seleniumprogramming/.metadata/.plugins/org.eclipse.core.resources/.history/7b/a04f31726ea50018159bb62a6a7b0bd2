@@ -1,0 +1,31 @@
+package pack1;
+
+public class Singleton {
+private static Singleton singletoninstance=null;
+private static String str="";
+private Singleton()
+{
+	
+}
+public void print(){
+	str="Linkan";
+	System.out.println(str);
+}
+
+public static Singleton getInstance()
+{
+	if(singletoninstance==null)
+	{
+		singletoninstance=new Singleton();
+		
+	}
+	return singletoninstance;
+}
+public static void main(String[] args) {
+    Singleton X=Singleton.getInstance();
+    Singleton Z=Singleton.getInstance();
+    Singleton Y=Singleton.getInstance();
+X.print();
+Y.print();
+}
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;pac.string&apos; to &apos;pac.stringexa&apos;&#x0D;&#x0A;- Original project: &apos;linkan&apos;&#x0D;&#x0A;- Original element: &apos;linkan/src/pac.string&apos;&#x0D;&#x0A;- Renamed element: &apos;linkan/src/pac.stringexa&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;pac.string&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;pac.string" name="pac.stringexa" qualified="false" references="true" stamp="1517473194277" textual="false" version="1.0"/>
+</session>

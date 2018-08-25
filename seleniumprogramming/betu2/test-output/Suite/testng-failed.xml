@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="FreeCrmTestCases(failed)">
+    <parameter name="password" value="test@123"/>
+    <parameter name="browser" value="Firefox"/>
+    <parameter name="url" value="https://www.freecrm.com/"/>
+    <parameter name="username" value="naveenk"/>
+    <classes>
+      <class name="pack1.LoginTest">
+        <methods>
+          <include name="LoginTest"/>
+        </methods>
+      </class> <!-- pack1.LoginTest -->
+    </classes>
+  </test> <!-- FreeCrmTestCases(failed) -->
+</suite> <!-- Failed suite [Suite] -->
