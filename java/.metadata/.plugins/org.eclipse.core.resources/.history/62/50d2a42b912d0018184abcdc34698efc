@@ -1,0 +1,14 @@
+package pac.stringexa;
+
+public class ountOccurrencesOfSubstringExample {
+
+	public static void main(String[] args) {
+		String str = "JavaExamplesJavaCodeJavaProgram";
+		System.out.println(str.split("Java", -1).length );
+		int count = ( str.split("Java", -1).length ) - 1;
+		 
+		System.out.println("Total occurrences: " + count);
+
+	}
+
+}

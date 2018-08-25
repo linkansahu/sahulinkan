@@ -1,0 +1,39 @@
+package pac.stringexa;
+
+import java.util.Arrays;
+
+public class AnagramExa {
+
+	public static void main(String[] args) {
+		String s1="Mother In Law";
+		String s2="Hitler Woman";
+		 String str1 = s1.replaceAll("//s", ""); 
+		 String str2 = s2.replaceAll("//s", "");
+		 boolean status=true;
+		 if(str1.length()!=str2.length())
+		 {
+			 status=false;
+		 }
+		 else
+		 {
+		char[]arr1=	 str1.toLowerCase().toCharArray();
+		char[]arr2=	 str2.toLowerCase().toCharArray();
+		Arrays.sort(arr1);
+		Arrays.sort(arr2);
+		status=Arrays.equals(arr1,arr2);
+		
+	 }
+		 if(status)
+		 {
+			 System.out.println(s1 + " and " + s2 + " are anagrams");
+		 }
+		 else
+		 {
+			   
+		            System.out.println(s1 + " and " + s2 + " are not anagrams");  
+		        
+		 }
+		 
+	}
+
+}

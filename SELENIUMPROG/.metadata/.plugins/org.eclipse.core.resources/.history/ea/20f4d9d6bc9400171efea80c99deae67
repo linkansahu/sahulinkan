@@ -1,0 +1,9 @@
+package pac.general;
+
+import org.testng.annotations.Test;
+
+public class TestNGDefaultReport {
+  @Test
+  public void f() {
+  }
+}

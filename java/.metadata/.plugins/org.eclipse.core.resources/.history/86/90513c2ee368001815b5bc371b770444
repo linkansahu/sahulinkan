@@ -1,0 +1,12 @@
+package pac.stringexa;
+
+public class AnagramExa {
+
+	public static void main(String[] args) {
+		String s1="keep";
+		String s2="listen";
+		 String str1 = s1.replaceAll(s1, ""); 
+System.out.println(str1);
+	}
+
+}

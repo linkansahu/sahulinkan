@@ -1,0 +1,44 @@
+package pack1;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+
+import org.apache.poi.ss.usermodel.DataFormatter;
+import org.apache.poi.xssf.usermodel.XSSFCell;
+import org.apache.poi.xssf.usermodel.XSSFRow;
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.testng.annotations.Test;
+
+public class ExcelProgramm {
+  XSSFWorkbook workbook;
+  XSSFSheet worksheet;
+  XSSFRow row;
+  XSSFCell cell;
+  FileInputStream fis;
+  int lrn;
+  DataFormatter format;//format the data
+ @Test
+   public void readData() throws Throwable
+   { 
+	 fis=new FileInputStream("C:\\Users\\LINKAN\\Desktop\\linkan.xlsx");
+	 workbook=new  XSSFWorkbook(fis);
+	 format=new DataFormatter();
+	 worksheet=workbook.getSheet("lksahu");
+     lrn=worksheet.getLastRowNum();
+     for(int i=0;i<=lrn;i++)
+     {
+     row=worksheet.getRow(i);
+        for(int j=0;j<=row.getLastCellNum();j++)
+         {
+	      cell=row.getCell(j);
+	      String celldata= cell.getStringCellValue();
+	      String data=format.formatCellValue(cell);
+	      System.out.println(data+"|| ");
+	      }
+        System.out.println();
+     }
+     
+   }
+}
+

@@ -1,0 +1,21 @@
+package pac1;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
+
+public class Facebook {
+
+	public static void main(String[] args) throws Throwable {
+		DesiredCapabilities capabilities = DesiredCapabilities.firefox();
+		capabilities.setCapability("marionette", true);
+		WebDriver driver = new FirefoxDriver(capabilities);
+	
+	  Thread.sleep(2000);
+	  
+	driver.findElement(By.xpath(".//*[@id='emailasdasdas']")).sendKeys("Learn Automation");
+
+	}
+
+}

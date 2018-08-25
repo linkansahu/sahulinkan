@@ -1,0 +1,41 @@
+package pac1;
+
+
+import java.io.File;
+
+import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.By;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.ITestResult;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
+
+public class FacebookScreenshot {
+	WebDriver driver;
+	
+    
+	@Test
+	public void captureScreenshot() throws Exception
+	{
+    	
+    		driver=new FirefoxDriver();
+    		  driver.manage().window().maximize();
+    	    driver.get("http://www.facebook.com");
+	driver.findElement(By.xpath(".//*[@id='emailasdasdas']")).sendKeys("Learn Automation");
+	Thread.sleep(2000);
+	
+	
+	TakesScreenshot ts=(TakesScreenshot)driver;
+	 
+
+	File source=ts.getScreenshotAs(OutputType.FILE);
+	 
+	FileUtils.copyFile(source, new File("D:\\MyTest\\Screenshots\\fb.png"));
+	 
+	System.out.println("Screenshot taken");
+	} 
+	}

@@ -1,0 +1,30 @@
+package pac.stringexa;
+
+import java.util.Set;
+import java.util.TreeSet;
+
+public class UnionString {
+
+	public static void main(String[] args) {
+		String a = "usha";
+        String b = "asha";
+        String c = a.concat(b);
+        System.out.println(c);
+        char[] ch = c.toCharArray();
+
+        Set set = new TreeSet();
+        Set set1 = new TreeSet();
+        for(char s : ch) {
+
+            if(!set.add(s)) {
+
+                set1.add(s);
+            } 
+        }
+        System.out.println(set1);
+
+
+
+	}
+
+}

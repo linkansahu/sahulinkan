@@ -1,0 +1,8 @@
+Feature:This is to test the login functionality
+
+
+Scenario:Gmail Test Cases
+Given Open FF and enter application url
+When i enter Un and Pwd
+Then i should get login page
+

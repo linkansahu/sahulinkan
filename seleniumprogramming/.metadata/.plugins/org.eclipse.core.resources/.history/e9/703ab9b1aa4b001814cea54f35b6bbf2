@@ -1,0 +1,17 @@
+package pack1;
+
+import java.util.HashMap;
+
+public class Data {
+
+	public  static  HashMap<String,String> getUserLoginInfo()
+	{
+		HashMap<String,String>usermap=new HashMap<String,String>();
+		usermap.put("customer","naveenk_test@123");
+		usermap.put("admin","adminuser_test@123");
+		return usermap;
+		
+	}
+	public void
+	
+}
